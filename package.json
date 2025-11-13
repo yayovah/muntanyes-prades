@@ -9,6 +9,11 @@
     "build": "parcel build"
   },
   "devDependencies": {
-    "parcel": "^2.14.0"
+    "parcel": "^2.14.0",
+    "posthtml-doctype": "^1.1.1",
+    "posthtml-include": "^2.0.1"
+  },
+  "dependencies": {
+    "posthtml": "^0.16.7"
   }
 }
