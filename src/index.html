@@ -7,15 +7,41 @@
     <meta name="description" content="Pàgina dedicada als aprofitaments forestals.">
     <meta name="keywords" content="Bosc, Forestal, Bolets, Llenya, Aprofitament Forestal">
     <link rel="icon" type="image/svg" href="img/forest.svg">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.scss">
     <title>Inici</title>
 </head>
   <body>
-    <header>
-    <h1>Aprofitaments Forestals</h1>
-    <p>Aquesta pàgina web va destinada a contingut relacionat amb aprofitaments forestals.</p>
+    <header class="header-portada">
+      <h1>Aprofitaments Forestals</h1>
+      <p>Aquesta pàgina web va destinada a contingut relacionat amb aprofitaments forestals.</p>
+      <include src="views/nav.html"></include>
     </header>
-    <include src="views/nav.html"></include>
-
+    <main>
+      <div class="content-inici">
+        <h2>Categories</h2>
+        <div class="content-categories">
+          <a href="/src/categoria.html"><div class="categoria">
+            <img src="/src/img/bolets1.jpg" alt="bolets">
+            <h3>Bolets</h3>
+          </div></a>
+          <div class="categoria">
+            <a href="/src/categoria.html"><h3>Llenya</h3></a>
+          </div>
+          <div class="categoria">
+            <a href="/src/categoria.html"><h3>Fusta</h3></a>
+          </div>
+          <div class="categoria">
+            <a href="/src/categoria.html"><h3>Entreteniment</h3></a>
+          </div>
+          <div class="categoria">
+            <a href="/src/categoria.html"><h3>Bolets</h3></a>
+          </div>
+          <div class="categoria">
+            <a href="/src/categoria.html"><h3>Bolets</h3></a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <include src="views/footer.html"></include>
   </body>
 </html>

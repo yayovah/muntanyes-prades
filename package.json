@@ -9,6 +9,7 @@
     "build": "parcel build"
   },
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.1",
     "parcel": "^2.14.0",
     "posthtml-doctype": "^1.1.1",
     "posthtml-include": "^2.0.1"

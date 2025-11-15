@@ -1,0 +1,43 @@
+.header-portada{
+    height: 100vh;
+    background-image: url("/src/img/bosc.jpg");
+    background-position:top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-inici{
+    
+    background-color: $color-fons;
+    color: $color-text;
+    padding: $padding-normal;
+}
+
+.content-categories{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: center;
+}
+
+.categoria{
+    width:350px;
+    height: 350px;
+    border-radius: 32px;
+    border-style: solid 1px $color-principal;
+    box-shadow: 7px 9px 20px #00000054;
+    text-align: center;
+    overflow: hidden;
+    //padding: $padding-gran;
+    
+    img{
+        position:relative;
+        object-fit:fill;
+        height: 100%;
+    }
+    h3{
+        position: relative;
+        top: -200px;
+        color: $color-text-clar;
+    }
+}

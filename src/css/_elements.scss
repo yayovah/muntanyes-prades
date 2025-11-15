@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font: $font-principal;
+    font-size: $font-mida-normal;
+    font-family: $font-principal;
+    line-height: $alcada-normal;
+}
+
+main{
+    padding: $padding-gran 0;
+    width: 100%;
+    background-color: $color-fons;
+    margin: 0 auto;
+    display: flex;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    color: $color-text-destacat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer{
+  padding: $padding-gran;
+  line-height: $alcada-apretada;
+  text-align: center;
+  background-color: $color-secundari;
+  color: $color-text-clar;
+  font-size: $font-mida-petita;
+
+    @media (width < $mida-mobil) {
+      padding-bottom: 96px;
+    }
+}
+
+/* Titols */
+
+h1, h2, h3{
+    padding:0;
+    margin:0;
+}
+

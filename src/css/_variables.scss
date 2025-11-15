@@ -1,10 +1,12 @@
+/*COLORS*/
 $color-principal: #4c6412;
-$color-secundari: #5c3100;
+$color-secundari: #412200;
 $color-text: #1b1400;
 $color-text-destacat: #5a0011;
 $color-text-clar: #fffef4;
 $color-fons: #fffdf8;
 
+/*FONTS*/
 $font-mida-petita: 12px; 
 $font-mida-normal: 20px;
 $font-mida-gran: 34px;
@@ -13,12 +15,22 @@ $font-mida-gegant: 64px;
 $font-pes-normal: 400;
 $font-pes-grossa: 800;
 
-$alçada-normal: 1.5;
-$alçada-gran: 2;  
-$alçada-apretada: 1.25;
-
+$alcada-normal: 1.5;
+$alcada-gran: 2;  
+$alcada-apretada: 1.25;
 
 @import url('https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&display=swap');
 
 $font-principal: "National Park", sans-serif;
 $font-secundaria: "Montserrat", sans-serif;
+
+/*MIDES*/
+
+$mida-mobil: 496px;
+$mida-tablet: 800px;
+$amplada-escriptori: 960px;
+
+$padding-petit: 12px;
+$padding-normal: 24px;
+$padding-gran: 64px;
+$padding-extra: 96px;
