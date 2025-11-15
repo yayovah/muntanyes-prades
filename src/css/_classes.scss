@@ -15,7 +15,16 @@
     width: $amplada-escriptori;
     display: flex;
     flex-direction: column;
-    gap:48px
+    gap:48px;
+
+    @media (width < $amplada-escriptori) {
+      width: 100%;
+    }
+
+    @media (width < $mida-mobil) {
+      padding: $padding-normal $padding-petit;
+    }
+    
 }
 
 .content-categories{
@@ -33,8 +42,6 @@
     text-align: center;
     overflow: hidden;
 
-    //padding: $padding-gran;
-    
     img{
         filter: brightness(0.6);
         position:relative;
