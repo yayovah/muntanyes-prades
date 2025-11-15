@@ -1,0 +1,22 @@
+.header-general{
+    height: 250px;
+    background-image: url("/src/img/bosc.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.article-resum{
+    width:300px;
+    border: solid 1px;
+    padding: $padding-normal;
+    overflow: hidden;
+    background-color: $color-principal;
+    border-radius: 12px;
+
+    h3{
+        text-align: center;
+
+    }
+}
