@@ -37,6 +37,9 @@
     h3{
         text-align: center;
     }
+    img{
+        height: 180px;
+    }
 }
 
 .veure-mes{
@@ -70,3 +73,12 @@
     align-items: center;
     gap:30px;
 }
+
+.content-links{
+    text-align: left;
+
+    a{
+        color: $color-principal;
+    }
+}
+
