@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "source": "src/index.html",
-  "browserslist": "last 2 years",
+  "browserslist": "last 2 version",
   "scripts": {
     "parcel:dev": "parcel", 
     "parcel:build": "parcel build", 
