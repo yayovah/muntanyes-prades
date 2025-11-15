@@ -9,7 +9,7 @@
     "parcel:build": "parcel build", 
     "clean": "rimraf dist .parcel-cache",
     "start": "parcel",
-    "build": "clean parcel build"
+    "build": "parcel build"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.16.1",
